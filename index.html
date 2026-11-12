@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHUN CLUB | Café & Cookies</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ENCABEZADO -->
+  <header class="header">
+
+    <nav class="navegacion">
+      
+    <!-- MENÚ DE COMPUTADORA -->
+    <div class="nav-izquierda">
+      <a href="#inicio">INICIO</a>
+      <a href="#ubicacion">UBICACIÓN</a>
+    </div>
+
+    <!-- LOGO -->
+    <a href="#inicio" class="logo">
+      <img src="images/logo.png" alt="CHUN CLUB">
+    </a>
+
+    <div class="nav-derecha">
+      <a href="#nosotros">NOSOTROS</a>
+      <a href="#menu">MENÚ</a>
+    </div>
+
+  </nav>
+
+  <!-- BOTÓN HAMBURGUESA PARA CELULAR -->
+  <button
+    class="menu-hamburguesa"
+    id="boton-menu"
+    type="button"
+    aria-label="Abrir menú"
+    aria-expanded="false"
+    aria-controls="menu-movil">
+    ☰
+  </button>
+
+  <!-- MENÚ DESPLEGABLE PARA CELULAR -->
+  <nav class="menu-movil" id="menu-movil">
+    <a href="#inicio">INICIO</a>
+    <a href="#ubicacion">UBICACIÓN</a>
+    <a href="#nosotros">NOSOTROS</a>
+    <a href="#menu">MENÚ</a>
+    <a href="#packs">PACKS</a>
+  </nav>
+
+</header>
+
+  <main>
+
+    <!-- INICIO -->
+    <section id="inicio" class="pantalla activa">
+
+      <div class="hero">
+      
+<video autoplay muted loop playsinline>
+    <source src="images/videoinicio.mov" type="video/quicktime">
+</video>
+
+        <a href="#packs" class="boton-packs">
+          VER PACKS
+        </a>
+      </div>
+
+      <div class="titulo-inicio">
+        <h1>NUESTRAS CHUNKS</h1>
+        <p>Descubre todos nuestros sabores.</p>
+      </div>
+
+      <div class="grilla-cookies">
+
+        <a href="#cookie/clasica" class="cookie">
+          <img src="images/clasica.png" alt="Classic Chunk">
+          <h2>CLASSIC CHUNK</h2>
+          <p>Simple, clásica, irresistible.</p>
+        </a>
+
+        <a href="#cookie/triple" class="cookie">
+          <img src="images/triplechunk.png" alt="Triple Choco">
+          <h2>TRIPLE CHOCO</h2>
+          <p>El chocolate nunca sobra.</p>
+        </a>
+
+        <a href="#cookie/red" class="cookie">
+          <img src="images/red velvet.png" alt="Red Velvet">
+          <h2>RED VELVET</h2>
+          <p>Tu red flag favorita.</p>
+        </a>
+
+        <a href="#cookie/pistacho" class="cookie">
+          <img src="images/pistacho.png" alt="Pistacho Chunk">
+          <h2>PISTACHO CHUNK</h2>
+          <p>Adictos al pistacho.</p>
+        </a>
+
+        <a href="#cookie/proteina" class="cookie">
+          <img src="images/proteina.png" alt="Prote Chunk">
+          <h2>PROTE CHUNK</h2>
+          <p>Más power, mismo antojo.</p>
+        </a>
+
+        <a href="#cookie/vegana" class="cookie">
+          <img src="images/vegana.png" alt="Vegan Chunk">
+          <h2>VEGAN CHUNK ♧</h2>
+          <p>Todo el sabor, plant based.</p>
+        </a>
+
+      </div>
+
+<!-- TRES ENCUADRES DEL LOCAL -->
+
+<div class="galeria-local">
+
+    <div class="foto-galeria">
+        <img src="images/local.jpg" alt="Interior de CHUN CLUB">
+    </div>
+
+    <div class="foto-galeria">
+        <img src="images/zoomfooter1.jpg" alt="Detalle de CHUN CLUB">
+    </div>
+
+    <div class="foto-galeria">
+        <img src="images/zoom2.jpg" alt="Ambiente de CHUN CLUB">
+    </div>
+
+</div>
+
+    </section>
+
+    <!-- PACKS -->
+    <section id="packs" class="pantalla pagina-interna">
+
+      <h1 class="titulo-pagina">NUESTROS PACKS</h1>
+
+     <div class="grilla-packs">
+
+  <!-- PACK DE 4 -->
+  <article class="pack">
+    <img src="images/PACK 4.jpg" alt="Pack de 4 cookies">
+
+    <h2>4 CHUNKS</h2>
+    <p>Un gustito.</p>
+
+    <p class="precio-pack">$12.000 CLP</p>
+
+    <a
+      href="https://wa.me/569976239905?text=Hola%21%20Quiero%20comprar%20un%20pack%20de%204%20cookies."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="boton-comprar">
+      COMPRAR
+    </a>
+  </article>
+
+  <!-- PACK DE 6 -->
+  <article class="pack">
+    <img src="images/PACK 6.jpg" alt="Pack de 6 cookies">
+
+    <h2>6 CHUNKS</h2>
+    <p>Prueba una de cada una.</p>
+
+    <p class="precio-pack">$17.000 CLP</p>
+
+    <a
+      href="https://wa.me/569976239905?text=Hola%21%20Quiero%20comprar%20un%20pack%20de%206%20cookies."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="boton-comprar">
+      COMPRAR
+    </a>
+  </article>
+
+  <!-- PACK DE 12 -->
+  <article class="pack">
+    <img src="images/PACK 12.jpg" alt="Pack de 12 cookies">
+
+    <h2>12 CHUNKS</h2>
+    <p>No te quedes con las ganas.</p>
+
+    <p class="precio-pack">32.000 CLP</p>
+
+    <a
+      href="https://wa.me/569976239905?text=Hola%21%20Quiero%20comprar%20un%20pack%20de%2012%20cookies."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="boton-comprar">
+      COMPRAR
+    </a>
+  </article>
+
+</div>
+
+</section>
+
+<!-- DETALLE DE COOKIE -->
+<section id="detalle" class="pantalla pagina-interna">
+
+      <div class="detalle-cookie">
+
+        <img id="detalle-foto"
+             class="detalle-foto"
+             src="images/cookies 1.jpg"
+             alt="Cookie">
+
+        <div class="detalle-texto">
+          <h1 id="detalle-nombre">CLASSIC CHUNK</h1>
+          <p id="detalle-descripcion"></p>
+
+          <div id="detalle-ingredientes" class="ingredientes"></div>
+        </div>
+
+      </div>
+
+      <a href="#inicio" class="volver">← Volver al inicio</a>
+    </section>
+
+    <!-- MENÚ -->
+    <section id="menu" class="pantalla pagina-interna menu-layout">
+
+      <div>
+        <h1>MENÚ</h1>
+
+        <div class="columnas-menu">
+
+          <div>
+            <h3>CAFÉ CALIENTE</h3>
+            <p>Espresso</p>
+            <p>Doppio</p>
+            <p>Americano</p>
+            <p>Cortado</p>
+            <p>Flat White</p>
+            <p>Cappuccino</p>
+            <p>Latte</p>
+            <p>Mocha</p>
+          </div>
+
+          <div>
+            <h3>CAFÉ FRÍO</h3>
+            <p>Iced Americano</p>
+            <p>Iced Latte</p>
+            <p>Iced Mocha</p>
+            <p>Cold Brew</p>
+            <p>Espresso Tonic</p>
+
+            <h3 class="extras">EXTRAS</h3>
+            <p>Leche vegetal.</p>
+          </div>
+
+          <div>
+            <h3>CHUNKS.</h3>
+            <a href="#cookie/clasica">Classic Chunk</a>
+            <a href="#cookie/triple">Triple Chunk</a>
+            <a href="#cookie/red">Red Velvet</a>
+            <a href="#cookie/pistacho">Pistacho Chunk</a>
+            <a href="#cookie/proteina">Protein Chunk</a>
+            <a href="#cookie/vegana">Vegan Chunk</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="fotos-menu">
+        <img src="images/nosotros4.jpg" alt="Café frío">
+        <img src="images/COOKIE NOSOTROS 1.jpg" alt="Café y cookies">
+      </div>
+
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="pantalla pagina-interna nosotros">
+
+      <div class="fotos-nosotros">
+        <img src="images/nosotros1.jpg" alt="Cookies">
+        <img src="images/menu1.jpg" alt="Café de CHUN CLUB">
+      </div>
+
+      <div>
+        <h1>NOSOTROS</h1>
+        <p>
+          Somos una cafetería de especialidad enfocada en dos cosas
+          que amamos: café y cookies. Trabajamos con café importado
+          de Buenos Aires y una selección de cookies artesanales,
+          grandes, intensas y pensadas para acompañar cada taza.
+          Una propuesta simple, cálida y sin vueltas: buen café,
+          buenas cookies y un lugar para disfrutarlos.
+        </p>
+      </div>
+
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section id="ubicacion" class="pantalla pagina-interna ubicacion">
+
+      <div>
+        <h1>UBICACIÓN</h1>
+        <img src="images/local.jpg" alt="Local CHUN CLUB">
+      </div>
+
+ <a class="direccion-grande"
+   href="https://www.google.com/maps/search/?api=1&amp;query=Jos%C3%A9+Domingo+Ca%C3%B1as+2640%2C+%C3%91u%C3%B1oa%2C+Chile"
+   target="_blank"
+   rel="noopener noreferrer">
+
+  <svg class="icono-ubicacion"
+       viewBox="0 0 24 24"
+       fill="none"
+       stroke="currentColor"
+       stroke-width="1.8">
+
+    <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"/>
+    <circle cx="12" cy="10" r="2.5"/>
+
+  </svg>
+
+  <span>
+    José Domingo Cañas<br>
+    Ñuñoa, Región Metropolitana, Chile
+  </span>
+
+</a>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="redes">
+
+      <!-- INSTAGRAM -->
+      <span class="icono-social" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="1.7">
+          <rect x="2" y="2" width="20" height="20" rx="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="18" cy="6" r="1" fill="currentColor"
+                  stroke="none"/>
+        </svg>
+      </span>
+
+      <!-- TIKTOK -->
+      <span class="icono-social" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M16.7 2c.2 2.1 1.4 3.5 3.4 3.7v3.4a8 8 0 0 1-3.4-.9v7.4a6.2 6.2 0 1 1-6.2-6.2h.8v3.4a3 3 0 1 0 2 2.8V2h3.4z"/>
+        </svg>
+      </span>
+
+      <a class="whatsapp"
+         href="https://wa.me/569976239905"
+         target="_blank"
+         rel="noopener noreferrer">
+        WhatsApp: +569976239905
+      </a>
+
+    </div>
+
+    <!-- GOOGLE MAPS -->
+    <a class="direccion-footer"
+       href="https://www.google.com/maps/search/?api=1&amp;query=Jos%C3%A9+Domingo+Ca%C3%B1as+2640%2C+%C3%91u%C3%B1oa%2C+Chile"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <svg viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="1.8">
+        <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"/>
+        <circle cx="12" cy="10" r="2.5"/>
+      </svg>
+
+      <span>
+        José Domingo Cañas<br>
+        Ñuñoa, Región Metropolitana, Chile
+      </span>
+
+    </a>
+
+  </footer>
+
+  <!-- NAVEGACIÓN Y CONTENIDO DE COOKIES -->
+  <script>
+    const cookies = {
+      clasica: {
+        nombre: "CLASSIC CHUNK",
+        foto: "cookies 1.jpg",
+        descripcion: "Una cookie de vainilla suave y dorada, cargada de grandes trozos de chocolate semiamargo derretido y terminada con un toque de sal marina.",
+        ingredientes: ["choconegro.jpg", "saldemar.jpg", "vainilla.jpg", "chocolateblanco.jpg"]
+      },
+      triple: {
+        nombre: "TRIPLE CHUNK",
+        foto: "TRIPLECOOKIE.jpg",
+        descripcion: "Una intensa cookie de cacao, repleta de trozos de chocolate con leche y chocolate blanco que se derriten en cada mordisco.",
+        ingredientes: ["chocoleche.jpg", "chocolateblanco.jpg", "choconegro.jpg", "cacao.jpg"]
+      },
+      red: {
+        nombre: "RED VELVET",
+        foto: "REDvelvet.jpg",
+        descripcion: "Una suave cookie Red Velvet de cacao, cargada de trozos de chocolate blanco y con un irresistible corazón cremoso.",
+        ingredientes: ["chocolateblanco.jpg", "cacao.jpg", "vainilla.jpg", "saldemar.jpg"]
+      },
+      pistacho: {
+        nombre: "PISTACHO CHUNK",
+        foto: "cookiePISTACHO.jpg",
+        descripcion: "Una cookie de vainilla rellena de cremosa crema de pistacho y terminada con pistachos tostados en trozos y sal marina.",
+        ingredientes: ["pistacho.jpg", "vainilla.jpg", "saldemar.jpg", "chocolateblanco.jpg"]
+      },
+      proteina: {
+        nombre: "PROTE CHUNK",
+        foto: "COOKIE PROTE.jpg",
+        descripcion: "Una intensa cookie proteica de cacao, cargada de chocolate semiamargo y rellena con un cremoso corazón de mantequilla de maní.",
+        ingredientes: ["mantequilla de mani.jpg", "choconegro.jpg", "cacao.jpg", "chocolateblanco.jpg"]
+      },
+      vegana: {
+        nombre: "VEGAN CHUNK",
+        foto: "veganchunk.jpg",
+        descripcion: "Una cookie vegana de vainilla, suave por dentro y dorada por fuera, cargada de grandes trozos de chocolate semiamargo y terminada con un toque de sal marina.",
+        ingredientes: ["choconegro.jpg", "vainilla.jpg", "saldemar.jpg", "cacao.jpg"]
+      }
+    };
+
+    function navegar() {
+      const ruta = decodeURIComponent(
+        window.location.hash.slice(1) || "inicio"
+      );
+
+      const [pagina, id] = ruta.split("/");
+      let destino = pagina;
+
+      if (pagina === "cookie" && cookies[id]) {
+        const cookie = cookies[id];
+
+        document.getElementById("detalle-nombre").textContent =
+          cookie.nombre;
+
+        document.getElementById("detalle-foto").src =
+          "images/" + encodeURIComponent(cookie.foto);
+
+        document.getElementById("detalle-descripcion").textContent =
+          cookie.descripcion;
+
+        const contenedor = document.getElementById(
+          "detalle-ingredientes"
+        );
+
+        contenedor.replaceChildren();
+
+        cookie.ingredientes.forEach(archivo => {
+          const imagen = document.createElement("img");
+          imagen.src = "images/" + encodeURIComponent(archivo);
+          imagen.alt = "Ingrediente de la cookie";
+          contenedor.appendChild(imagen);
+        });
+
+        destino = "detalle";
+      }
+
+      const pantallas = document.querySelectorAll(".pantalla");
+      const pantalla = document.getElementById(destino);
+
+      pantallas.forEach(elemento => {
+        elemento.classList.remove("activa");
+      });
+
+      if (pantalla && pantalla.classList.contains("pantalla")) {
+        pantalla.classList.add("activa");
+      } else {
+        document.getElementById("inicio").classList.add("activa");
+      }
+
+      window.scrollTo(0, 0);
+    }
+
+    window.addEventListener("hashchange", navegar);
+    navegar();
+  </script>
+
+</body>
+</html>
